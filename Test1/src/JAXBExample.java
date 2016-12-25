@@ -18,7 +18,10 @@ import javax.xml.bind.Unmarshaller;
 			Employees customer = (Employees) jaxbUnmarshaller.unmarshal(file);
 			for(Employee employee:customer.getEmployees())
 				System.out.println(employee);
+			
 
+			
+			
 		  } catch (JAXBException e) {
 			e.printStackTrace();
 		  }
